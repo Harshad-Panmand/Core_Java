@@ -44,6 +44,5 @@ public class SwitchStatements {
 		default:
 			System.out.println("Invalid day");
 		}
-
 	}
 }
