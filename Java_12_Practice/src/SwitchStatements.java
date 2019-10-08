@@ -1,5 +1,3 @@
-import jdk.nashorn.api.tree.YieldTree;
-
 public class SwitchStatements {
 	public static void main(String[] args) {
 		int day = 2;
