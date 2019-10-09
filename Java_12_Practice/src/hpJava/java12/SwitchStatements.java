@@ -1,3 +1,9 @@
+package hpJava.java12;
+/**
+ * This class contains basic switch statements that is used before java 12.
+ * @author hpanmand
+ *
+ */
 public class SwitchStatements {
 	public static void main(String[] args) {
 		int day = 2;
