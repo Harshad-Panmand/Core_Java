@@ -10,6 +10,7 @@ public class SetInterface {
 	public static void main(String[] args) {
 		// HashSet does not maintain any order
 		// It uses HashMap internally to store it’s elements.
+		// It accepts null value
 		Set<String> hashSet = new HashSet<>();
 		hashSet.add("One");
 		hashSet.add("Two");
@@ -23,6 +24,7 @@ public class SetInterface {
 
 		// LinkedHashSet maintain insertion order
 		// It uses LinkedHashMap internally to store it’s elements.
+		// It accepts null value
 		Set<String> linkedHashSet = new LinkedHashSet<>();
 		linkedHashSet.add("One");
 		linkedHashSet.add("Two");
@@ -36,6 +38,7 @@ public class SetInterface {
 
 		// If no comparator used then elements are maintained in ascending order
 		// It uses TreeMap internally to store it’s elements.
+		// It dose not accepts null value
 		Set<String> treeSet = new TreeSet<>();
 		treeSet.add("One");
 		treeSet.add("Two");
