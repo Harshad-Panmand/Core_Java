@@ -1,5 +1,10 @@
 package design.pattern.iterator;
 
+/**
+ * It is used for test Iterator Design Pattern.
+ * @author hpanmand
+ *
+ */
 public class RadioChannelsImpl {
 	public static void main(String[] args) {
 		RadioChannelCollection radioChannels = addDefaulRadioChannels();
