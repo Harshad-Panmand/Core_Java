@@ -2,6 +2,7 @@ package design.pattern.iterator;
 
 /**
  * It is used for test Iterator Design Pattern.
+ * 
  * @author hpanmand
  *
  */
@@ -11,6 +12,13 @@ public class RadioChannelsImpl {
 		RadioChannelIterator radioIterator = radioChannels.iterator(RadioChannelLanguageEnum.ALL);
 		while (radioIterator.hasNext()) {
 			RadioChannel rc = radioIterator.next();
+			System.out.println(rc.toString());
+		}
+		System.out.println("***********************************");
+
+		RadioChannelIterator englishIterator = radioChannels.iterator(RadioChannelLanguageEnum.ENGLISH);
+		while (englishIterator.hasNext()) {
+			RadioChannel rc = englishIterator.next();
 			System.out.println(rc.toString());
 		}
 		System.out.println("***********************************");
