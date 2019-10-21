@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class SetInterface {
+public class SetInterfaceExamples {
 	public static void main(String[] args) {
 		// HashSet does not maintain any order
 		// It uses HashMap internally to store it’s elements.
